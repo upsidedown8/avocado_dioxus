@@ -1,0 +1,11 @@
+[package]
+name = "avocado_dioxus"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+avocado = { git = "https://github.com/upsidedown8/avocado" }
+dioxus = { version = "0.2.4", features = ["web"] }
+
+[profile.dev.package.avocado]
+opt-level = 3
