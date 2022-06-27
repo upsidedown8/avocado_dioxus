@@ -1,0 +1,11 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avocado</title>
+
+<link rel="preload" href="/avocado.wasm" as="fetch" type="application/wasm" crossorigin="">
+<link rel="modulepreload" href="/avocado.js"></head>
+<body id="main">
+
+<script type="module">import init from '/avocado.js';init('/avocado.wasm');</script></body></html>
